@@ -1,0 +1,26 @@
+{
+  "name": "serve-api-spec",
+  "version": "1.1.0",
+  "description": "Run apis defined in openapi spec locally",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wen-jiang/serve-api-spec.git"
+  },
+  "author": "abeljiang@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wen-jiang/serve-api-spec/issues"
+  },
+  "homepage": "https://github.com/wen-jiang/serve-api-spec#readme",
+  "dependencies": {
+    "@stoplight/prism-cli": "^4.8.0",
+    "axios": "^0.26.0",
+    "chalk": "^4.1.2",
+    "js-yaml": "^4.1.0"
+  }
+}
